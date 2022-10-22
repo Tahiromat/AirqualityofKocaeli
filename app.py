@@ -1,12 +1,11 @@
-import ui
-
-HP = ui.HomePage()
-
+import helpers
+import streamlit
 
 
 def App():
 
-    HP.create_title("AIR QUALITY DASHBOARD")
+    helpers.HelperFunctions().page_configuration(streamlit)
+    helpers.HelperFunctions().sidebar_route(streamlit)
 
 if __name__ == '__main__':
     App()

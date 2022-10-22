@@ -1,4 +1,7 @@
 class AlgorithmsPage:
+    def __init__(self, streamlit):
+        self.streamlit = streamlit
 
-    def __init__(self) -> None:
-        pass
+    def algorithms(self):
+
+        self.streamlit.title("ALGORITHMS PAGE")

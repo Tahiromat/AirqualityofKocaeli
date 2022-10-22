@@ -1,4 +1,6 @@
 class AnalyticsPage:
+    def __init__(self, streamlit):
+        self.streamlit = streamlit
 
-    def __init__(self) -> None:
-        pass
+    def analytics(self):
+        self.streamlit.title("ANALYTICS PAGE")
