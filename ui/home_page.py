@@ -13,4 +13,6 @@ class HomePage:
         for filename in helpers.HelperFunctions().get_all_air_data():
             data_path = os.path.join(helpers.Constants().get_air_data_path(), filename)
             data = classes.PreprocessingClass().read_data(data_path)
-            self.streamlit.write(data.head())
+            self.streamlit.write(min(data["DATE"]))
+            self.streamlit.write(max(data['DATE']))
+            self.streamlit.write("#")

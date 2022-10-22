@@ -10,3 +10,9 @@ class Constants:
 
     def get_air_data_path(self):
         return os.path.join("air-data")
+
+    def chart_height(self):
+        return 600
+
+    def chart_width(self):
+        return 800
