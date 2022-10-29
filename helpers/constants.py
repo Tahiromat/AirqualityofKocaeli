@@ -16,3 +16,17 @@ class Constants:
 
     def chart_width(self):
         return 800
+
+    def station_location_info(self):
+        dct = {
+            "Kocaeli - Alikahya-MTHM": [40.778773125653856, 30.004645890276294],
+            "Kocaeli - Dilovası-İMES OSB 1-MTHM": [40.838336846997116, 29.57919698108752],
+            "": [],
+            "": [],
+            "": [],
+            "": [],
+            "": [],
+            "": [],
+            "": [],
+            "": [],
+        }
